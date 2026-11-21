@@ -6,6 +6,14 @@ Change NVIDIA GeForce settings mid-game from your Stream Deck: Digital Vibrance,
 
 Works on every Stream Deck model with keys. On a Stream Deck +, you can also use the dials and the touch strip. No administrator rights needed.
 
+## Made for the Stream Deck display
+- **Smooth animations:** gauges glide to each new value, numbers count up, switches fade between on and off.
+- **Press feedback:** every key press answers with a short ripple, so you know it registered.
+- **Color that means something:** the temperature gauge turns orange above 70 °C and red above 83 °C; the FPS graph turns amber, then red, when your frame rate drops.
+- **Touch strip (Stream Deck +):** every GPU reading on a dial gets a live 40-second chart with its peak; Digital Vibrance and Max Frame Rate get sliders. The strip lights up briefly when you press the dial.
+
+![Live charts on the Stream Deck + touch strip](images/touch-strip.png)
+
 ## Digital Vibrance
 Changes NVIDIA Digital Vibrance (color saturation) of a display.
 - **Dial:** rotate to adjust, press or tap to go back to your normal level
@@ -46,12 +54,12 @@ Shows one GPU reading on a key or on a dial:
 - Core clock, memory clock and fan speed
 
 **Key:** press to show the next reading (or set it to do nothing). **Dial:** rotate or press to switch readings.
-The ring turns orange above 83 °C. Readings your GPU doesn't report are marked *not available* and skipped.
+The gauge glides to each new value and turns orange above 70 °C and red above 83 °C. On a dial, the touch strip shows a 40-second chart of the reading and its peak. Readings your GPU doesn't report are marked *not available* and skipped.
 
 ![All GPU readings](images/metrics.png)
 
 ## FPS
-Shows the frame rate of the game in front with a graph of the last 30 seconds, without an overlay on your screen. Shows *no game* when no game is in front. Press the key to open the NVIDIA performance overlay (or set it to do nothing).
+Shows the frame rate of the game in front with its average and a graph of the last 30 seconds (amber, then red, when the frame rate drops), without an overlay on your screen. Shows *no game* when no game is in front. Press the key to open the NVIDIA performance overlay (or set it to do nothing).
 
 **One-time permission:** Windows only lets apps read game frame rates after a one-time permission (Xbox Game Bar asks for the same). If the key shows *setup*, open its settings and click **Allow FPS reading**, then confirm the Windows prompt. If the FPS still doesn't show, sign out of Windows and back in once.
 
@@ -77,7 +85,7 @@ Settings are changed through NVIDIA's official driver interfaces, the same ones 
 ## Release notes
 
 ### 1.0.0
-- First release: Digital Vibrance on dials and keys for each display; Max Frame Rate on keys and dials; Low Latency Mode, V-Sync and Power Mode keys; Instant Replay (with live state), Save Clip, Record and Screenshot using your NVIDIA App hotkeys; GPU Status (temperature, usage, power, VRAM, core clock, memory clock, fan) on keys and dials; in-game FPS with a graph.
+- First release: animated, color-coded keys and touch-strip charts; Digital Vibrance on dials and keys for each display; Max Frame Rate on keys and dials; Low Latency Mode, V-Sync and Power Mode keys; Instant Replay (with live state), Save Clip, Record and Screenshot using your NVIDIA App hotkeys; GPU Status (temperature, usage, power, VRAM, core clock, memory clock, fan) on keys and dials; in-game FPS with a graph.
 
 ## Support
 Open an issue on this page.
